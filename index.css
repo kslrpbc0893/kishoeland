@@ -1,0 +1,77 @@
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: #000000;
+}
+
+.title {
+	position: absolute;
+	font-family: 'Open Sans', 'serif';
+	font-size: 100px;
+	font-weight: 600;
+	color: #FFFAFA;
+	padding: 0px;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+
+@keyframes fadein {
+	0% {
+		opacity: 0;
+		color: 	#FFF8DC;
+	}
+	
+	25% {
+		opacity: 0.25;
+		color: 	#FFDEAD;
+	}
+	
+	50% {
+		opacity: 0.5;
+		color: 	#CD853F;
+	}
+	
+	75% {
+		opacity: 0.75;
+		color: #CF8049;
+	}
+	100% {
+		opacity: 1;
+		color: #9F520F;
+	}
+}
+
+.title {
+	animation: fadein 5s ease 1;
+	animation-fill-mode: forwards;
+}
+
+/*
+.navigation {
+	text-align: right;
+	padding-right: 10px;
+	list-style-type: none;
+	font-size: 33px;
+	font-weight: 600;
+	font-family: 'Open Sans', "serif";
+	visibility: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: #8B0000;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #61C6F5;
+}
+*/
